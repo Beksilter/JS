@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        // Задание 3
+        let a= Number(prompt("Введите число a"));
+        let b= Number(prompt("Введите число b"));
+
+        if (a>=0 && b>=0) {
+            let difference=a-b;
+            alert("разность чисел = " + difference);
+        } else if (a<0 && b<0){
+            let multiplication=a*b;
+            alert("произведение чисел = " + multiplication);
+        } else if (a<0 && b>0 || a>0 && b<0) {
+            let sum = a + b;
+            alert("Сумма чисел = " + sum);
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
